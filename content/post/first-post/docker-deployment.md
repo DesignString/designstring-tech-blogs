@@ -8,16 +8,16 @@ author = "Ankit Singh"
 ## Introduction
 In this tutorial, we’ll configure a fastAPI based project with docker and deploy it to DigitalOcean using ubuntu.
 
-
 ## Prerequisite
 
-* docker installation set up- ​​https://docs.docker.com/compose/install/.
+* docker installation set up- 
+[check this](https://docs.docker.com/compose/install/)
 
 * Installed Ubuntu version 18.0.4 
 
 * Secure Shell (SSH) enabled user
 
-* Installation of Nginx on Ubuntu 18.04 - Follow this
+* Installation of Nginx on Ubuntu 18.04 - [follow this](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04) 
 ### Step 1 — Set up FastAPI project inside Docker container
 Before directly jumping into the first step, just make sure that you already have installed docker desktop application on your computer.
 
@@ -85,7 +85,7 @@ Navigate to the directory - cd /var/www
 
 * Build and run your app with Compose🔗 -  docker-compose up
 
-![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/ssh%20-enable.png?raw=true)
+![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/compose.png?raw=true)
 
 
 ### Step 4 — NGINX Configuration
@@ -101,14 +101,13 @@ Inside the configuration file create a new config file and configure it:
 * Configuration example 
 
 
-Screenshot 2022-11-16 at 3.57.06 PM.png
+![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/nginx_config.png?raw=true)
+
 
 * After setting the configure file save it and once again run the following command to reload the newly created config file and to restart the nginx server
 
+    __sudo systemctl reload nginx__
 
-sudo systemctl reload nginx
-
-sudo systemctl restart nginx
-
+    **sudo systemctl restart nginx**
 
   Now go the droplet section on DigitalOcean website and select the earlier created droplet, then go the networking page and create a custom inbound with the running port.
