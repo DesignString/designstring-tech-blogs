@@ -85,7 +85,7 @@ Navigate to the directory - cd /var/www
 
 * Build and run your app with Compose🔗 -  docker-compose up
 
-   Screenshot 2022-11-16 at 3.35.48 PM.png
+![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/ssh%20-enable.png?raw=true)
 
 
 ### Step 4 — NGINX Configuration
