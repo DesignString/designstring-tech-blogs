@@ -1,0 +1,18 @@
+baseurl = "/"
+title = "Blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "DesignString Tech"
+    description = "List of Tech Blogs"
+    github = "https://github.com/DesignString"
+    twitter = "https://twitter.com/design_string"
+    email = "designstring.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "2022/11/17"
+
+[Permalinks]
+    post = "/:filename/"
