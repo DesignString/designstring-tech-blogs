@@ -41,9 +41,6 @@ CMD ["uvicorn", "app.main:app", "--proxy-headers", "--host", "0.0.0.0", "--port"
 
 {{< /highlight >}}
 
-![alt text](/images/ssh-enable.png)
-
-
 * Now Create a docker-compose.yml file in the same directory - define docker compose file
 
 {{< highlight html >}}
@@ -62,7 +59,6 @@ ports:
 
 {{< /highlight >}}
 
-
 ### Step 2 — Create a droplet on DigitalOcean and connect to remote server
 
 Refer to this link - create a droplet from the DO control pannel
@@ -75,7 +71,7 @@ In my case - ssh root@159.89.163.38
 
 * Type password and hit Enter
 
-![tech_stack](/ssh-enable.png)
+![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/ssh%20-enable.png?raw=true)
 
 
 ### Step 3 — Add and Run the project with docker compose
