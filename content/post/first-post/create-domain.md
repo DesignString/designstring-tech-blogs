@@ -24,18 +24,16 @@ Once done with the registration Process, please follow the below steps-
 
 1. From the home page, click on you account name and go through the page visit my account, from there navigate to List/Search Orders via clicking on Manage Order, there you can see all the existing domains
 
-  [alt-image]()
-Screenshot 2022-11-16 at 7.02.57 PM.png
 
-![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/ssh%20-enable.png?raw=true)
+![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/domain.png?raw=true)
 
 2.  Now click on a  domain name and scroll down to the end, on the bottom left corner you can see Manage DNS inside DNS management section
 
-Screenshot 2022-11-16 at 4.42.14 PM.png
+![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/manage_dns.png?raw=true)
 
 3.  After clicking on that you will redirected to the admin area of that domain, now click on add record and create a new record with the IP address
 
-Screenshot 2022-11-16 at 7.04.52 PM.png
+![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/new_record.png?raw=true)
 
  4. Install and cofigure certbot inside the remote server - Guide
 
