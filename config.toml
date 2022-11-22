@@ -1,19 +1,20 @@
 baseurl = "/"
-title = " Blog"
+title = "Blog"
 theme = "ghostwriter"
 
 [Params]
     mainSections = ["post"]
     intro = true
     headline = "DesignString Tech"
-    description = "List of Tech Blogs"
+    description = "List of blogs"
     website = "https://www.designstring.com/"
     github = "https://github.com/DesignString"
     twitter = "https://twitter.com/design_string"
     email = "info@designstring.com"
     opengraph = true
     shareTwitter = true
-    dateFormat = "yyyy-mm-dd"
+   
+
 
 [Permalinks]
     post = "/:filename/"

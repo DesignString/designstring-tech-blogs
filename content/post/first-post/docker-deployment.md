@@ -1,7 +1,8 @@
 +++
 title = "Docker Deployment of FastAPI project"
 #description = "Description of my awesome project."
-date = 2022-11-17T02:13:50Z
+date = "2022-11-20"
+
 author = "Ankit Singh"
 +++
 
