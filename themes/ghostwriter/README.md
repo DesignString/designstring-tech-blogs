@@ -91,7 +91,7 @@ params:
   rss: true
   shareFacebook: true
   shareLinkedIn: false
-  dateFormat: "Mon, Jan 2, 2006"
+  dateFormat: "Fri, Nov 18, 2022"
   exponeaJsUrl: ""
   exponeaTarget: ""
   exponeaToken: ""

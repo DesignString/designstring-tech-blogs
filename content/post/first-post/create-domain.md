@@ -7,14 +7,14 @@ tags = [
     "themes",
     "development",
 ]
-date = 2022-11-16T02:13:50Z
+date = 2022-11-18
 author = "Ankit Singh"
 +++
 
 ## Introduction
 In this guide, we are going to see how we can create a domain name with the existing IP address using BigRock
 
-BigRock - BigRock is a web hosting platform that provide a wide range of hosting solutions
+BigRock - It is a web hosting platform that provide a wide range of hosting solutions
 
 These are the steps that we have to follow in order to create a domain name :-
 
@@ -43,5 +43,6 @@ Once done with the registration Process, please follow the below steps-
 
 * A list of domain will be show up, select that specific domain and that’s it https has been enabled.
 
-Screenshot 2022-11-16 at 4.55.45 PM.png
+![alt text](https://github.com/DesignString/designstring-tech-blogs/blob/main/content/post/images/https_enabled.png?raw=true)
+
 

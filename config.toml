@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Blog"
+title = " Blog"
 theme = "ghostwriter"
 
 [Params]
@@ -10,10 +10,10 @@ theme = "ghostwriter"
     website = "https://www.designstring.com/"
     github = "https://github.com/DesignString"
     twitter = "https://twitter.com/design_string"
-    email = "designstring.com"
+    email = "info@designstring.com"
     opengraph = true
     shareTwitter = true
-    dateFormat = "2022/11/17"
+    dateFormat = "yyyy-mm-dd"
 
 [Permalinks]
     post = "/:filename/"
