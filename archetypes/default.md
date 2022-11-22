@@ -3,6 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 ---
-#New date formatting
+
+#Set date format herer
 
 
